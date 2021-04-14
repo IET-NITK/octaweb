@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_clubs",
+  "info": {
+    "name": "About Club"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "main": {
+      "type": "richtext"
+    },
+    "about_us": {
+      "type": "richtext"
+    },
+    "footer": {
+      "type": "text"
+    }
+  }
+}

@@ -1,23 +1,23 @@
 {
   "name": "strapi-plugin-social-media",
   "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "Post through multiple social media channels all at once.",
   "strapi": {
-    "name": "social-media",
-    "icon": "plug",
-    "description": "Description of social-media plugin."
+    "name": "Social Media Management",
+    "icon": "bullhorn",
+    "description": "Post through multiple social media channels all at once."
   },
   "dependencies": {},
   "author": {
-    "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+    "name": "IET NITK",
+    "email": "iet@nitk.edu.in",
+    "url": "https://iet.nitk.ac.in"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
+      "name": "IET NITK",
+      "email": "iet@nitk.edu.in",
+      "url": "https://iet.nitk.ac.in"
     }
   ],
   "engines": {

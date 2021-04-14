@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-club",
+      "handler": "about-club.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-club",
+      "handler": "about-club.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-club",
+      "handler": "about-club.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

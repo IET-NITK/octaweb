@@ -1,8 +1,8 @@
-/*
- *
- * HomePage
- *
- */
+import { Button, Padded, Text } from "@buffetjs/core";
+import { Header } from "@buffetjs/custom";
+import { LoadingBar } from "@buffetjs/styles";
+import { faUpload } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import React, { memo } from 'react';
 // import PropTypes from 'prop-types';
