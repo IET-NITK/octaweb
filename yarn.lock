@@ -997,6 +997,30 @@
     react-with-direction "^1.3.1"
     reactstrap "^8.5.1"
 
+"@buffetjs/core@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@buffetjs/core/-/core-3.3.5.tgz#45975b00b4a694cb04b9d53bf2a242149f573753"
+  integrity sha512-wsPslYhOrb3fjiMzlqfb3NXnkuz5Jwe5hgA97gmHeCJsfWJ71AoxZ22LgQCSlElwI8elg3rsWDQJ+gWQ5gZv8w==
+  dependencies:
+    "@buffetjs/hooks" "3.3.5"
+    "@buffetjs/icons" "3.3.5"
+    "@buffetjs/styles" "3.3.5"
+    "@buffetjs/utils" "3.3.5"
+    "@fortawesome/fontawesome-svg-core" "^1.2.25"
+    "@fortawesome/free-regular-svg-icons" "^5.11.2"
+    "@fortawesome/free-solid-svg-icons" "^5.11.2"
+    "@fortawesome/react-fontawesome" "^0.1.4"
+    invariant "^2.2.4"
+    lodash "4.17.20"
+    moment "^2.24.0"
+    prop-types "^15.7.2"
+    rc-input-number "^4.5.0"
+    react-dates "^21.5.1"
+    react-moment-proptypes "^1.7.0"
+    react-router-dom "^5.2.0"
+    react-with-direction "^1.3.1"
+    reactstrap "^8.5.1"
+
 "@buffetjs/custom@3.3.4":
   version "3.3.4"
   resolved "https://registry.npmjs.org/@buffetjs/custom/-/custom-3.3.4.tgz"
@@ -1010,15 +1034,40 @@
     prop-types "^15.5.10"
     react-moment-proptypes "^1.7.0"
 
+"@buffetjs/custom@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@buffetjs/custom/-/custom-3.3.5.tgz#4fd7c8b7811f55e336bf26f04e6125f2ec2c00dd"
+  integrity sha512-xT0o0fmFcjlD0AQQVRHUt0VnQTSl7VgFlhKlJT0BUd2Q4bHEpFJm6mMPJ5T1gMn374wMuphmF8qYZmM8KTZsfg==
+  dependencies:
+    "@buffetjs/core" "3.3.5"
+    "@buffetjs/styles" "3.3.5"
+    "@buffetjs/utils" "3.3.5"
+    lodash "4.17.20"
+    moment "^2.24.0"
+    prop-types "^15.5.10"
+    react-moment-proptypes "^1.7.0"
+
 "@buffetjs/hooks@3.3.4":
   version "3.3.4"
   resolved "https://registry.npmjs.org/@buffetjs/hooks/-/hooks-3.3.4.tgz"
   integrity sha512-HUdnzBFovEXWnIVgzts6DtPSEJEn55Ivbu6Xd8AXyZoz5xYTwhD5iCtif0CS5uEtqsXGOoc320kcbPrRn6wEgw==
 
+"@buffetjs/hooks@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@buffetjs/hooks/-/hooks-3.3.5.tgz#31630c695c924f81ab29ba4fc36679834095e04f"
+  integrity sha512-OsO9fQtE0FxhR1AVaWQaSoNZeDlJ53DdHZvO4pn+DUfsyiNgdm3Gcy65Ek4Koj3P5iSeMJdQ/QAonp5gmP2v+g==
+
 "@buffetjs/icons@3.3.4":
   version "3.3.4"
   resolved "https://registry.npmjs.org/@buffetjs/icons/-/icons-3.3.4.tgz"
   integrity sha512-uIjpnydas3TkT+5MyH7y/zP5ny813OFE4Q3Gl0do1nITUdwrkZXqV9VvfYeDDoYoOURaLI5N6yfR/kW6qgV3Kw==
+  dependencies:
+    prop-types "^15.5.10"
+
+"@buffetjs/icons@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@buffetjs/icons/-/icons-3.3.5.tgz#f74bb2fe0be1c183c02bc73321c87641f2c12f95"
+  integrity sha512-tryjZ77QY1nZPcbYOVzb0vE0FmZs3z+4CcykL9LNRWhf98UHHnRJMHt72HgXea8BMhGNF24yC76KG92cOgYfBw==
   dependencies:
     prop-types "^15.5.10"
 
@@ -1036,10 +1085,32 @@
     react-dates "^21.1.0"
     react-tooltip "^4.2.11"
 
+"@buffetjs/styles@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@buffetjs/styles/-/styles-3.3.5.tgz#c222ede37abaf3d6cfe09eea7ee591e04c818894"
+  integrity sha512-WC714ORI4hwJMB1dUVmIbIyUIoxsjzE+xKXKJUs82EPlqlshjkEFQef8wF+L1H+zmqW+2lwQhEKOTd+gCfCTkg==
+  dependencies:
+    "@fortawesome/fontawesome-free" "^5.12.0"
+    "@fortawesome/fontawesome-svg-core" "^1.2.22"
+    "@fortawesome/free-regular-svg-icons" "^5.10.2"
+    "@fortawesome/free-solid-svg-icons" "^5.10.2"
+    "@fortawesome/react-fontawesome" "^0.1.4"
+    prop-types "^15.7.2"
+    react-dates "^21.1.0"
+    react-tooltip "^4.2.11"
+
 "@buffetjs/utils@3.3.4":
   version "3.3.4"
   resolved "https://registry.npmjs.org/@buffetjs/utils/-/utils-3.3.4.tgz"
   integrity sha512-65Z4wFrcjTsSHkVNCxhq0vHOAugct42hgkwcqGcDN42McX45cac0ul8lA6xzJmE5yaA1dzkflgYeFTERHZzjmw==
+  dependencies:
+    lodash "4.17.20"
+    yup "^0.27.0"
+
+"@buffetjs/utils@3.3.5":
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/@buffetjs/utils/-/utils-3.3.5.tgz#ad46ac0ab7eb87bb124ba66e2ecdadfe89137e75"
+  integrity sha512-ZkfsgMrLrV9RkDWRDALe4m3BppTulMIpsK+6xnRV/v7J8PEhwPqHHTQBh0CbWC/SXiQhfSj1dKKw6dmun/xFIQ==
   dependencies:
     lodash "4.17.20"
     yup "^0.27.0"
@@ -3044,29 +3115,6 @@ chardet@^0.7.0:
   resolved "https://registry.npmjs.org/chardet/-/chardet-0.7.0.tgz"
   integrity sha512-mT8iDcrh03qDGRRmoA2hmBJnxpllMR+0/0qlzjqZES6NdiWDcZkCNAk4rPFZ9Q85r27unkiNNg8ZOiwZXBHwcA==
 
-cheerio-select@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/cheerio-select/-/cheerio-select-1.3.0.tgz"
-  integrity sha512-mLgqdHxVOQyhOIkG5QnRkDg7h817Dkf0dAvlCio2TJMmR72cJKH0bF28SHXvLkVrGcGOiub0/Bs/CMnPeQO7qw==
-  dependencies:
-    css-select "^4.0.0"
-    css-what "^5.0.0"
-    domelementtype "^2.2.0"
-    domhandler "^4.1.0"
-    domutils "^2.5.2"
-
-cheerio@^1.0.0-rc.5:
-  version "1.0.0-rc.6"
-  resolved "https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.6.tgz"
-  integrity sha512-hjx1XE1M/D5pAtMgvWwE21QClmAEeGHOIDfycgmndisdNgI6PE1cGRQkMGBcsbUbmEQyWu5PJLUcAOjtQS8DWw==
-  dependencies:
-    cheerio-select "^1.3.0"
-    dom-serializer "^1.3.1"
-    domhandler "^4.1.0"
-    htmlparser2 "^6.1.0"
-    parse5 "^6.0.1"
-    parse5-htmlparser2-tree-adapter "^6.0.1"
-
 chokidar@3.5.1, chokidar@^3.4.1, chokidar@^3.5.1:
   version "3.5.1"
   resolved "https://registry.npmjs.org/chokidar/-/chokidar-3.5.1.tgz"
@@ -3139,7 +3187,7 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.0, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6:
+classnames@^2.2.0, classnames@^2.2.3, classnames@^2.2.5, classnames@^2.2.6, classnames@^2.3.1:
   version "2.3.1"
   resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz"
   integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
@@ -3707,17 +3755,6 @@ css-select@^2.0.2:
     domutils "^1.7.0"
     nth-check "^1.0.2"
 
-css-select@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/css-select/-/css-select-4.0.0.tgz"
-  integrity sha512-I7favumBlDP/nuHBKLfL5RqvlvRdn/W29evvWJ+TaoGPm7QD+xSIN5eY2dyGjtkUmemh02TZrqJb4B8DWo6PoQ==
-  dependencies:
-    boolbase "^1.0.0"
-    css-what "^5.0.0"
-    domhandler "^4.1.0"
-    domutils "^2.5.1"
-    nth-check "^2.0.0"
-
 css-to-react-native@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/css-to-react-native/-/css-to-react-native-3.0.0.tgz"
@@ -3731,11 +3768,6 @@ css-what@^3.2.1:
   version "3.4.2"
   resolved "https://registry.npmjs.org/css-what/-/css-what-3.4.2.tgz"
   integrity sha512-ACUm3L0/jiZTqfzRM3Hi9Q8eZqd6IK37mMWPLz9PJxkLWllYeRf+EHUSHYEtFop2Eqytaq1FizFVh7XfBnXCDQ==
-
-css-what@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/css-what/-/css-what-5.0.0.tgz"
-  integrity sha512-qxyKHQvgKwzwDWC/rGbT821eJalfupxYW2qbSJSAtdSTimsr/MlaGONoNLllaUPZWf8QnbcKM/kPVYUQuEKAFA==
 
 cssesc@^3.0.0:
   version "3.0.0"
@@ -4103,7 +4135,7 @@ dom-serializer@0:
     domelementtype "^2.0.1"
     entities "^2.0.0"
 
-dom-serializer@^1.0.1, dom-serializer@^1.3.1:
+dom-serializer@^1.0.1:
   version "1.3.1"
   resolved "https://registry.npmjs.org/dom-serializer/-/dom-serializer-1.3.1.tgz"
   integrity sha512-Pv2ZluG5ife96udGgEDovOOOA5UELkltfJpnIExPrAk1LTvecolUGn6lIaoLh86d83GiB86CjzciMd9BuRB71Q==
@@ -4149,7 +4181,7 @@ domutils@^1.5.1, domutils@^1.7.0:
     dom-serializer "0"
     domelementtype "1"
 
-domutils@^2.5.1, domutils@^2.5.2:
+domutils@^2.5.2:
   version "2.5.2"
   resolved "https://registry.npmjs.org/domutils/-/domutils-2.5.2.tgz"
   integrity sha512-MHTthCb1zj8f1GVfRpeZUbohQf/HdBos0oX5gZcQFepOZPLLRyj6Wn7XS7EMnY7CVpwv8863u2vyE83Hfu28HQ==
@@ -5506,7 +5538,7 @@ htmlparser2@^3.10.1:
     inherits "^2.0.1"
     readable-stream "^3.1.1"
 
-htmlparser2@^6.0.0, htmlparser2@^6.1.0:
+htmlparser2@^6.0.0:
   version "6.1.0"
   resolved "https://registry.npmjs.org/htmlparser2/-/htmlparser2-6.1.0.tgz"
   integrity sha512-gyyPk6rgonLFEDGoeRgQNaEUvdJ4ktTmmUh/h2t7s+M8oPpIPxgNACWa+6ESR57kXstwqPiCut0V8NRpcwgU7A==
@@ -6849,7 +6881,7 @@ lodash@4.17.20, lodash@^4.17.11, lodash@^4.17.20:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
-lodash@^4.1.1, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.3, lodash@^4.17.4:
+lodash@4.17.21, lodash@^4.1.1, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.3, lodash@^4.17.4:
   version "4.17.21"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -7681,13 +7713,6 @@ nth-check@^1.0.2:
   dependencies:
     boolbase "~1.0.0"
 
-nth-check@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmjs.org/nth-check/-/nth-check-2.0.0.tgz"
-  integrity sha512-i4sc/Kj8htBrAiH1viZ0TgU8Y5XqCaV/FziYK6TBczxmeKm3AEFWqqF3195yKudrarqy7Zu80Ra5dobFjn9X/Q==
-  dependencies:
-    boolbase "^1.0.0"
-
 num2fraction@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz"
@@ -8022,18 +8047,6 @@ parse-srcset@^1.0.2:
   resolved "https://registry.npmjs.org/parse-srcset/-/parse-srcset-1.0.2.tgz"
   integrity sha1-8r0iH2zJcKk42IVWq8WJyqqiveE=
 
-parse5-htmlparser2-tree-adapter@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/parse5-htmlparser2-tree-adapter/-/parse5-htmlparser2-tree-adapter-6.0.1.tgz"
-  integrity sha512-qPuWvbLgvDGilKc5BoicRovlT4MtYT6JfJyBOMDsKoiT+GiuP5qyrPCnR9HcPECIJJmZh5jRndyNThnhhb/vlA==
-  dependencies:
-    parse5 "^6.0.1"
-
-parse5@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.npmjs.org/parse5/-/parse5-6.0.1.tgz"
-  integrity sha512-Ofn/CTFzRGTTxwpNEs9PP93gXShHcTq255nzRYSKe8AkVpZY7e1fpmTfOyoIvjP5HG7Z2ZM7VS9PPhQGW2pOpw==
-
 parseurl@^1.3.2, parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
   resolved "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz"
@@ -8140,11 +8153,6 @@ path-to-regexp@^1.1.1, path-to-regexp@^1.7.0:
   integrity sha512-n43JRhlUKUAlibEJhPeir1ncUID16QnEjNpwzNdO3Lm4ywrBpBZ5oLD0I6br9evr1Y9JTqwRtAh7JLoOzAQdVA==
   dependencies:
     isarray "0.0.1"
-
-path-to-regexp@^3.1.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-3.2.0.tgz"
-  integrity sha512-jczvQbCUS7XmS7o+y1aEO9OBVFeZBQ1MDSEqmO7xSoPgOPoowY/SxLpZ6Vh97/8qHZOteiCKb7gkG9gA2ZUxJA==
 
 pause@0.0.1:
   version "0.0.1"
@@ -9010,7 +9018,7 @@ react-with-styles@^4.1.0:
     prop-types "^15.7.2"
     react-with-direction "^1.3.1"
 
-react@^16.13.1, react@^16.9.0:
+react@^16.13.1, react@^16.14.0, react@^16.9.0:
   version "16.14.0"
   resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
@@ -10313,33 +10321,6 @@ strapi-generate@3.5.4:
     reportback "^2.0.2"
     strapi-utils "3.5.4"
 
-strapi-helper-plugin@3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.5.3.tgz#68f992f90a361346083073f8f49c7bfc5607d8a2"
-  integrity sha512-plhaAgyrbKPOJN8S7UDPiGPULwVCbQrPoJ5X7QpXPrh1uHNJFwhxhLrrsIy1TSoWVxdNxa+i9CVIJjRUaN+O7Q==
-  dependencies:
-    "@buffetjs/core" "3.3.4"
-    "@buffetjs/custom" "3.3.4"
-    "@buffetjs/hooks" "3.3.4"
-    "@buffetjs/icons" "3.3.4"
-    "@buffetjs/styles" "3.3.4"
-    "@buffetjs/utils" "3.3.4"
-    bootstrap "^4.6.0"
-    classnames "^2.2.5"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.20"
-    moment "^2.29.1"
-    react "^16.13.1"
-    react-dom "^16.9.0"
-    react-helmet "^6.1.0"
-    react-intl "4.5.0"
-    react-router "^5.2.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.2.1"
-    whatwg-fetch "^3.6.2"
-
 strapi-helper-plugin@3.5.4:
   version "3.5.4"
   resolved "https://registry.npmjs.org/strapi-helper-plugin/-/strapi-helper-plugin-3.5.4.tgz"
@@ -10367,10 +10348,42 @@ strapi-helper-plugin@3.5.4:
     styled-components "^5.2.1"
     whatwg-fetch "^3.6.2"
 
-strapi-plugin-comments@1.0.1-beta.7:
-  version "1.0.1-beta.7"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-comments/-/strapi-plugin-comments-1.0.1-beta.7.tgz#881f73c297dc88d13bc98da79334ce880fcd8399"
-  integrity sha512-0hWnKRTZTtGVhMLJ3VhYXtsRXETHxe5lLOPwXwSWgET2EyCxL88ZfUkiOWwtq3zjAeFjFKgifF+9TrLL0pHqGw==
+strapi-helper-plugin@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.6.0.tgz#8ee2e73364c9a0f58feb8b7fcb71fd33b5d408d9"
+  integrity sha512-S+mNXqgd1fYkajQ/1fef0VH66q1STlv/YF0Tn4QO/79PzZB0BKV9J2XXXyrACF2ceicTx3w6bfURn73dwXS/yg==
+  dependencies:
+    "@buffetjs/core" "3.3.5"
+    "@buffetjs/custom" "3.3.5"
+    "@buffetjs/hooks" "3.3.5"
+    "@buffetjs/icons" "3.3.5"
+    "@buffetjs/styles" "3.3.5"
+    "@buffetjs/utils" "3.3.5"
+    "@fortawesome/fontawesome-free" "^5.15.2"
+    "@fortawesome/fontawesome-svg-core" "^1.2.35"
+    "@fortawesome/free-brands-svg-icons" "^5.15.2"
+    "@fortawesome/free-solid-svg-icons" "^5.15.3"
+    "@fortawesome/react-fontawesome" "^0.1.14"
+    bootstrap "^4.6.0"
+    classnames "^2.3.1"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.21"
+    moment "^2.29.1"
+    react "^16.14.0"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.2.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.2.3"
+    whatwg-fetch "^3.6.2"
+
+strapi-plugin-comments@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-comments/-/strapi-plugin-comments-1.0.1.tgz#51cfba4592ec74222d9c682fe485df5a40838e85"
+  integrity sha512-IJvlSX05mqEGsbNJnonMw/sqaK0N3QjtksfqGIBEnI/uFWy2Y6BGJExzBgHLb7a/p4zXJ23QwwO8u+LWcgH5yQ==
   dependencies:
     bad-words "^3.0.3"
     lodash "^4.17.11"
@@ -10383,8 +10396,8 @@ strapi-plugin-comments@1.0.1-beta.7:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.5.3"
-    strapi-utils "3.5.3"
+    strapi-helper-plugin "3.6.0"
+    strapi-utils "3.6.0"
     uuid "^3.1.0"
 
 strapi-plugin-content-manager@3.5.4:
@@ -10463,38 +10476,6 @@ strapi-plugin-content-type-builder@3.5.4:
     strapi-helper-plugin "3.5.4"
     strapi-utils "3.5.4"
     yup "^0.27.0"
-
-strapi-plugin-documentation@3.5.4:
-  version "3.5.4"
-  resolved "https://registry.npmjs.org/strapi-plugin-documentation/-/strapi-plugin-documentation-3.5.4.tgz"
-  integrity sha512-1H/0k/IvIF5ibQtZ4gftuB6tYK56Zm1K1PziN8sfRizugi4yl8iISrp6ddH52t5PtqU6KAFmrFh+BzeICq/pfg==
-  dependencies:
-    "@buffetjs/core" "3.3.4"
-    "@buffetjs/custom" "3.3.4"
-    "@buffetjs/hooks" "3.3.4"
-    "@buffetjs/icons" "3.3.4"
-    "@buffetjs/styles" "3.3.4"
-    "@buffetjs/utils" "3.3.4"
-    cheerio "^1.0.0-rc.5"
-    fs-extra "^9.1.0"
-    immutable "^3.8.2"
-    koa-static "^5.0.0"
-    lodash "4.17.20"
-    moment "^2.29.1"
-    path-to-regexp "^3.1.0"
-    react "^16.13.1"
-    react-copy-to-clipboard "^5.0.3"
-    react-dom "^16.9.0"
-    react-intl "4.5.0"
-    react-redux "^7.2.2"
-    react-router "^5.2.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    redux "^4.0.1"
-    redux-immutable "^4.0.0"
-    reselect "^4.0.0"
-    strapi-helper-plugin "3.5.4"
-    swagger-ui-dist "3.45.1"
 
 strapi-plugin-email@3.5.4:
   version "3.5.4"
@@ -10621,18 +10602,6 @@ strapi-provider-upload-local@3.5.4:
   resolved "https://registry.npmjs.org/strapi-provider-upload-local/-/strapi-provider-upload-local-3.5.4.tgz"
   integrity sha512-8n2D8kq846LamaRvSsl4bBFexIiS7cCXxvdHzAb2EfInMXXgm3/eNj9vMOXU9BZ2pC5RyPPIT+hjj5I5qXWSLw==
 
-strapi-utils@3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.5.3.tgz#e2b3974b42fdc98cdc595dba213e05dac1e2f72d"
-  integrity sha512-lxcMIPPKS8ndbJSfJbpioLtRWlq+qr8wGDHPnSOyDpBGgMF4pXyIN3LAG+jXgHn01FDuH/P0qg40JEAP79hN/g==
-  dependencies:
-    "@sindresorhus/slugify" "1.1.0"
-    date-fns "^2.19.0"
-    lodash "4.17.20"
-    pino "^4.7.1"
-    pluralize "^8.0.0"
-    yup "0.29.3"
-
 strapi-utils@3.5.4:
   version "3.5.4"
   resolved "https://registry.npmjs.org/strapi-utils/-/strapi-utils-3.5.4.tgz"
@@ -10641,6 +10610,18 @@ strapi-utils@3.5.4:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.19.0"
     lodash "4.17.20"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.6.0:
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.6.0.tgz#0b608c95170dd2687d6ab93845cfa007d27d08d2"
+  integrity sha512-UgXejSAgOGKsN99c7B/dslV5UJTFIxHXYOKlKEomQWLvK3cUxqN4T9maUxbncyyMvZ/QIvUkyjRuRv71DndNbg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.19.0"
+    lodash "4.17.21"
     pino "^4.7.1"
     pluralize "^8.0.0"
     yup "0.29.3"
@@ -10869,7 +10850,7 @@ style-loader@^0.23.1:
     loader-utils "^1.1.0"
     schema-utils "^1.0.0"
 
-styled-components@^5.2.1:
+styled-components@^5.2.1, styled-components@^5.2.3:
   version "5.2.3"
   resolved "https://registry.npmjs.org/styled-components/-/styled-components-5.2.3.tgz"
   integrity sha512-BlR+KrLW3NL1yhvEB+9Nu9Dt51CuOnHoxd+Hj+rYPdtyR8X11uIW9rvhpy3Dk4dXXBsiW1u5U78f00Lf/afGoA==
@@ -10926,11 +10907,6 @@ supports-color@^7.1.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
-
-swagger-ui-dist@3.45.1:
-  version "3.45.1"
-  resolved "https://registry.npmjs.org/swagger-ui-dist/-/swagger-ui-dist-3.45.1.tgz"
-  integrity sha512-QWotWWYkgSdPtI6HW12q4Ua5zxIhhvnYvx9iZKtDbZuVvJSTnMIzaHrE6KJVe/8plWh7Wpd/qqeBfpOxF8g1/g==
 
 switchback@^2.0.1:
   version "2.0.5"
