@@ -1,0 +1,15 @@
+
+{
+  "kind": "singleType",
+  "collectionName": "temp1s",
+  "info": {
+    "singularName": "temp1",
+    "pluralName": "temp1s",
+    "displayName": "temp"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "attributes": {}
+}
