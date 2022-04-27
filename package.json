@@ -24,7 +24,7 @@
     "strapi-plugin-content-type-builder": "3.5.4",
     "strapi-plugin-email": "3.5.4",
     "strapi-plugin-graphql": "3.5.4",
-    "strapi-plugin-import-export-content": "^0.4.2",
+    "strapi-plugin-import-export-content": "0.4.2",
     "strapi-plugin-upload": "3.5.4",
     "strapi-plugin-users-permissions": "3.5.4",
     "strapi-provider-email-nodemailer": "3.6.0",
@@ -41,8 +41,8 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "jsdoc-to-markdown": "^7.1.1",
-    "lodash": "^4.17.21",
-    "pluralize": "^8.0.0"
+    "jsdoc-to-markdown": "7.1.1",
+    "lodash": "4.17.21",
+    "pluralize": "8.0.0"
   }
 }
