@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "knex": "0.21.18",
-    "pg": "8.5.1",
+    "pg": "8.11.3",
     "pg-connection-string": "2.4.0",
     "rollbar": "2.21.1",
     "sqlite3": "5.0.0",
